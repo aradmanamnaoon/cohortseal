@@ -1,0 +1,6 @@
+database_url: sqlite:///cohortseal.db
+log_level: INFO
+log_json: true
+api_host: 127.0.0.1
+api_port: 8000
+audit_fail_on_warning: false
