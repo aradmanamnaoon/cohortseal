@@ -1,0 +1,6 @@
+[
+  {"name":"patient_split","phase":"split","data_dependent":false},
+  {"name":"intensity_scaler","phase":"fit","data_dependent":true,"fit_scope":"train","applied_to":["train","validation","test"]},
+  {"name":"resample_spacing","phase":"transform","data_dependent":false,"applied_to":["train","validation","test"]},
+  {"name":"held_out_evaluation","phase":"evaluate","data_dependent":false,"applied_to":["test"]}
+]
