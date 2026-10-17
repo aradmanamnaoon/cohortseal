@@ -50,7 +50,7 @@ T06 and T07 are *specification-based* examples, not newly discovered bugs. T02â€
 
 ## 5. Companion synthetic fixture and manual reproduction
 
-File: [`GA-05A_toy_sessions.csv`](GA-05A_toy_sessions.csv). **This CSV is an educational audit manifest, NOT an actual `participants.tsv` or valid BIDS dataset.** Every ID is fictional; there are no scans or images.
+File: [`toy_sessions.csv`](toy_sessions.csv). **This CSV is an educational audit manifest, NOT an actual `participants.tsv` or valid BIDS dataset.** Every ID is fictional; there are no scans or images.
 
 Columns: `record_id,subject_id,session_id,record_role,planned_status,observation_status,ml_split,reason`. `ml_split` is an analysis-time partition, **not a BIDS-defined field**. Values `NA` and `unknown` reflect review state, not measured biological outcomes.
 
