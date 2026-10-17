@@ -1,0 +1,13 @@
+record_id,subject_id,session_id,record_role,planned_status,observation_status,ml_split,reason
+r01,sub-P01,ses-A,participant,yes,yes,train,repeat subject intentionally in train
+r02,sub-P01,ses-B,participant,yes,yes,train,both visits in same split
+r03,sub-P02,ses-A,participant,yes,yes,validation,first visit obtained
+r04,sub-P02,ses-B,participant,yes,no,validation,planned but missing; study review
+r05,sub-P03,ses-A,participant,yes,yes,train,intentional split violation control
+r06,sub-P03,ses-B,participant,yes,yes,test,same person appears in test
+r07,sub-P04,ses-A,participant,yes,yes,test,one-visit protocol
+r08,sub-P04,ses-B,participant,no,no,test,never planned; no error implied
+r09,sub-P05,ses-A,participant,unknown,yes,validation,schedule not documented
+r10,sub-P05,ses-B,participant,unknown,no,validation,cannot label absent visit intentional
+r11,sub-emptyroom,ses-cal1,calibration,NA,yes,NA,calibration example; role must be verified
+r12,sub-emptyroom,ses-cal2,calibration,NA,yes,NA,nonparticipant session difference
